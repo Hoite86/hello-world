@@ -3,7 +3,7 @@ For Practice
 
 def add_numbers(n1,n2,n3):
   results = n1 + n2 +n3
-  print(f"The sum is: {results})
+  print(f"The sum is: {results}")
 
   
 number1 = int(input())
