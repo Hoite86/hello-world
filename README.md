@@ -1,13 +1,12 @@
 # hello-world
 For Practice 
 
-def add_numbers(n1,n2,n3):
-  results = n1 + n2 +n3
-  print(f"The sum is: {results}")
+def add_numbers(n1,n2,n3): 
+    results = n1 + n2 +n3 
+    print(f"The sum is: {results}")
 
-  
-number1 = int(input())
-number2 = int(input())
-number3 = int(input())
+number1 = int(input("Choose a number: ")) 
+number2 = int(input("Choose a number again: ")) 
+number3 = int(input("Choose a number AGAIN!: "))
 
-add_number(number1, number2, number3)
+add_numbers(number1, number2, number3)
